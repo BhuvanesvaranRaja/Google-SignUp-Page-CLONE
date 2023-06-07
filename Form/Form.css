@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+
+.logo {
+  height: 100px;
+  padding: 28px 100px;
+}
+span {
+  margin: auto;
+  width: 50%;
+  padding: 28px 100px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #4a4a4a;
+}
+#spanHead {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #4a4a4a;
+  font-weight: 500;
+}
+.NameSec {
+  display: flex;
+  gap: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.NameSec input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 266px;
+}
+.UserName input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 36%;
+}
+#usename,
+#password {
+  font-size: 15px;
+}
+.Password input {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 36%;
+}
+#DOB {
+  margin-left: 100px;
+  width: 100%;
+  font-weight: 100;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.Line3-container {
+  display: flex;
+}
+.gender {
+  display: flex;
+  position: relative;
+  left: 150px;
+  gap: 10px;
+}
+.gender label {
+  position: relative;
+  top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+#Phnumber {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 20px;
+  width: 36%;
+}
+#degree select {
+  width: 36%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: white;
+}
+#tandc input {
+  position: relative;
+  left: 100px;
+}
+#tandc {
+  margin-top: 20px;
+}
+.signin a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 800;
+  position: relative;
+  left: 100px;
+  color: #4285f4;
+}
+.signin {
+  margin-top: 25px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button {
+  position: relative;
+  left: 380px;
+  padding: 5px;
+  width: 7%;
+  border-radius: 5px;
+  background-color: #4285f4;
+  border: none;
+  color: white;
+  font-weight: 800;
+}
+.Form-container {
+  margin-left: 300px;
+}
+#image {
+  position: relative;
+  bottom: 1350px;
+  left: 800px;
+}
+#image1 {
+  height: 50%;
+  width: 20%;
+  margin-top: 50%;
+  position: relative;
+  right: 88%;
+  bottom: 1700px;
+}

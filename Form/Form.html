@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="icon" href="./images/5455873.png" />
+    <link rel="stylesheet" href="./Form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Form-container">
+      <div class="inner-whole-container">
+        <div class="header">
+          <img class="logo" src="./images/download.png" /><br />
+          <span id="spanHead">Create your Google Account</span><br />
+          <span>Continue to Gmail</span>
+        </div>
+
+        <!-- ffo -->
+        <div class="form-inner-container">
+          <form>
+            <div class="NameSec">
+              <!-- first and last name -->
+              <input type="text" name="Fname" placeholder="First Name" />
+              <input type="text" name="Lname" placeholder="Last Name" />
+            </div>
+            <!-- username -->
+            <div class="UserName">
+              <input
+                type="text"
+                name="Username"
+                placeholder="User Name"
+              /><br />
+              <span id="usename">you can use letters numbers and periods</span>
+            </div>
+            <!-- dob -->
+            <div class="Line3-container">
+              <div>
+                <input id="DOB" type="date" name="dob" placeholder="DOB" />
+              </div>
+              <div class="gender">
+                <input type="radio" id="male" />
+                <label for="male">Male</label><br />
+                <input type="radio" id="female" />
+                <label for="female">Female</label><br />
+              </div>
+            </div>
+
+            <!-- password -->
+            <div class="Password">
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+              /><br />
+              <span id="password"
+                >use 8 or more characters with a mix of letters,numbers and
+                symbols</span
+              >
+            </div>
+            <!-- phonenumber -->
+
+            <input
+              id="Phnumber"
+              type="number"
+              name="Phnumber"
+              placeholder="Phone Number"
+            />
+            <!-- qualification -->
+            <div id="degree">
+              <select>
+                <option value="saab">Qualification</option>
+                <option value="opel">B.Sc</option>
+                <option value="audi">M.Sc</option>
+              </select>
+            </div>
+            <div id="tandc">
+              <input type="radio" />
+              <span
+                >I agree with the
+                <a href="../login.txt">terms and conditions</a></span
+              >
+            </div>
+            <!-- sign in -->
+            <div class="signin">
+              <a href="#">Sign in Instead</a>
+              <button>SIGN UP</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <img id="image" src="./images/01.webp" />
+      <img
+        id="image1"
+        src="./images/SeekPng.com_white-corner-png_4222148.png"
+      />
+    </div>
+  </body>
+</html>
